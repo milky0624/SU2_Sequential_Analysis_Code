@@ -18,3 +18,5 @@ How to download the SU2 Code :
   9) In the system variable, access 'Path' in the variable list and add the path you entered from the above variable value.
 
 If you follow this way, we are ready to use the SU2 code, and please use the SU2 official website for additional information.
+
+# How to use SU2_Analysis_Case.py 
