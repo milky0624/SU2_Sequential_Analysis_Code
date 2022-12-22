@@ -22,3 +22,9 @@ If you follow this way, we are ready to use the SU2 code, and please use the SU2
 
 
 # How to use SU2_Analysis_Case.py 
+To use this Python code, you must meet all of the following conditions: 
+1) All files must be in one folder.
+2) Read this paragraph carefully and follow all the rules.
+The setup file(.cfg), SU2_CFD.exe, Mesh File, SU2_Analysis_case.py must all exist in one boulder and run SU2_Analysis_case.py to perform the final analysis sequentially.
+Create and save all the setup files you want to interpret, and set the file name to 'Case_i'. For i, please enter numbers from 1 in order.
+This analysis is sequentially performed, and the final analysis results are additionally stored in the format 'Case_i.txt'.
