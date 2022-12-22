@@ -28,4 +28,4 @@ To use this Python code, you must meet all of the following conditions:
 
 The setup file(.cfg), SU2_CFD.exe, Mesh File, SU2_Analysis_case.py must all exist in one boulder and run SU2_Analysis_case.py to perform the final analysis sequentially.
 Create and save all the setup files you want to interpret, and set the file name to 'Case_i'. For i, please enter numbers from 1 in order.
-This analysis is sequentially performed, and the final analysis results are additionally stored in the format 'Case_i.txt'.
+This analysis is sequentially performed, and the final analysis results are additionally stored in the format 'Case_i.txt'. Please run SU2_Analysis_Case.py in CMD to perform analysis. We will ask you a few questions to carry out this interperetation, so please enter your answers in the requirements.
