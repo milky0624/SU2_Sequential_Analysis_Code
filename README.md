@@ -9,12 +9,12 @@ How to download the SU2 Code :
   4) Please instll both files downloaded from MPI.
   5) Plase access 'System Properties > Environment Variables' in the Window os.
   6) Select 'New' in the user variable and enter it as below.
-       Variable name : SU2_RUN
-       Variable value : (Please select the path of the bin folder of the SU2 Code you downloaded.)
+       - Variable name : SU2_RUN
+       - Variable value : (Please select the path of the bin folder of the SU2 Code you downloaded.)
   7) In the user variable, access 'Path' in the variable list and add the path you entered from the above variable value.
   8) Select 'New' in the system variable and enter it as below.
-       Variable name : SU2_RUN
-       Variable value : (Please select the path of the bin folder of the SU2 Code you downloaded.)
+       - Variable name : SU2_RUN
+       - Variable value : (Please select the path of the bin folder of the SU2 Code you downloaded.)
   9) In the system variable, access 'Path' in the variable list and add the path you entered from the above variable value.
 
 If you follow this way, we are ready to use the SU2 code, and please use the SU2 official website for additional information.
@@ -38,4 +38,4 @@ Whenever one interpretation is completed, as previously described, the process o
 
 
 ** Precautions **
-There are additional precautions. When saving the Setup file (.cfg) file, set the output file name differently. If 'Case_1.cfg' and 'Case_2.cfg' have the same output name, the output result of 'Case_1.cfg' will be overwritten as 'Case_2.cfg' will be interpreted later. Always use this with care.
+- There are additional precautions. When saving the Setup file (.cfg) file, set the output file name differently. If 'Case_1.cfg' and 'Case_2.cfg' have the same output name, the output result of 'Case_1.cfg' will be overwritten as 'Case_2.cfg' will be interpreted later. Always use this with care.
