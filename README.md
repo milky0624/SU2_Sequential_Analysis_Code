@@ -35,3 +35,7 @@ First, ask how many cores you want to use. A request for the number of cores to 
 Lastly, you can enter the last case number. If you entered the beginning and end of this Python code as 3, 10, interpretation of 'Case_3.cfg', 'Case_4.cfg', 'Case_5.cfg', 'Case_6.cfg', 'Case_7.cfg', 'Case_8.cfg', 'Case_9.cfg', and 'Case_10.cfg' will be performed in order.
 Whenever one interpretation is completed, as previously described, the process of performing the interpretation is stored in the form of 'Case_i.txt', and the necessary information can be used referring to it. This is saved separately from the History File output from SU2_CFD.exe. In addition, whenever one analysis is completed, the CMD window will output the analysis convergence results.
 
+
+
+** Precautions **
+There are additional precautions. When saving the Setup file (.cfg) file, set the output file name differently. If 'Case_1.cfg' and 'Case_2.cfg' have the same output name, the output result of 'Case_1.cfg' will be overwritten as 'Case_2.cfg' will be interpreted later. Always use this with care.
